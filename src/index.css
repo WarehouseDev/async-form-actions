@@ -1,0 +1,97 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: url("https://images.pexels.com/photos/17364073/pexels-photo-17364073/free-photo-of-arches-in-university-in-glasgow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    no-repeat center center / cover;
+  background-attachment: fixed;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+
+form {
+  margin: 2.5rem 0 3rem;
+}
+input,
+button {
+  padding: 0.75rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  font-size: 1rem;
+}
+input {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+input:focus-visible {
+  outline: none;
+  border: none;
+}
+input:focus {
+  background-color: #fff;
+}
+input::placeholder {
+  color: inherit;
+}
+button {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #242424;
+  color: #fff;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #fff;
+  color: #242424;
+  border-left: 1px solid #242424;
+}
+button:disabled {
+  background-color: #777;
+  cursor: not-allowed;
+  color: #fff;
+}
+li {
+  max-width: 46rem;
+  background-color: #fff;
+  color: #242424;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+  font-weight: 600;
+}
